@@ -3,7 +3,7 @@ Repository for the course "Software Engineering &amp; IT-PM" at the university M
 
 ## Task01 - Indexed Image
 
-In the folder `c++` you can find files for a C++ project.
+In the folder `task01/c++` you can find files for a C++ project.
 A `CMakeLists.txt` is provided, so if you want, you can create a project for
 the IDE of your choice using [CMake](https://cmake.org/).
 
