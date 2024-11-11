@@ -86,7 +86,7 @@ bool loadColorPalette(std::ifstream &file, std::vector<Color> &palette) {
 void createImage(std::ifstream &file, int width, int height,
                  std::vector<Color> const &palette) {
   Logger::print("write data to image... ", false);
-  u_char *data = new u_char[width * height * 3];
+  char *data = new char[width * height * 3];
   int count = 0;
   for (int y = 0; y < height; ++y) {
     std::string line{};
