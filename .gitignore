@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+target
+image.png
+data.dat
